@@ -14,7 +14,7 @@ class City extends Component {
   render () {
     return (
       <div onClick={this.handleClick}>
-        <li className="list-group-item"> {this.props.city.name}</li>
+        <p className="list-group-item"> {this.props.city.name}</p>
       </div>
     );
   }
